@@ -12,11 +12,11 @@ Time spent: **X** hours spent in total
 
 The following **required** functionality is completed:
 
-- [ ] App displays list of hard-coded tasks
-- [ ] When a task is tapped it navigates the user to a task detail view
-- [ ] When user adds photo to complete the tasks, it marks the task as complete
-- [ ] When adding photo of task, the location is added
-- [ ] User returns to home page (list of tasks) and the status of your task is updated to complete
+- [x] App displays list of hard-coded tasks
+- [x] When a task is tapped it navigates the user to a task detail view
+- [x] When user adds photo to complete the tasks, it marks the task as complete
+- [x] When adding photo of task, the location is added
+- [x] User returns to home page (list of tasks) and the status of your task is updated to complete
  
 The following **optional** features are implemented:
 
@@ -30,7 +30,7 @@ The following **additional** features are implemented:
 
 Here is a reminder on how to embed Loom videos on GitHub. Feel free to remove this reminder once you upload your README. 
 
-[Guide]](https://www.youtube.com/watch?v=GA92eKlYio4) .
+[[Guide]](https://www.youtube.com/watch?v=GA92eKlYio4) .](https://github.com/codeBender31/iOS_Project1_ScavengerHunt/blob/main/FirstAttempt.gif)
 
 ## Notes
 
