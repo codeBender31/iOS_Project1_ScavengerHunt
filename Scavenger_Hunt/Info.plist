@@ -21,5 +21,9 @@
 			</array>
 		</dict>
 	</dict>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>&quot;We need to access your pictures to upload to the app&quot;</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>&quot;We need to access your location to get a correct pin on the map&quot;</string>
 </dict>
 </plist>
