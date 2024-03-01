@@ -4,7 +4,7 @@ Scavenger Hunt App that allows users to submit pictures of completed tasks, and 
 
 Submitted by: **Abel Hernandez**
 
-**Name of your app** is an app that ... [TODO] 
+**Name of your app** is an app that allows users to check off a scavenger hunt list and upload pictures that determine location of where it was taken.
 
 Time spent: **X** hours spent in total
 
@@ -34,7 +34,8 @@ Here is a reminder on how to embed Loom videos on GitHub. Feel free to remove th
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+It was a definitely a challenge to get familiar with XCode and learn about Story Board layout.
+By interacting with the in class project I was able to see how each component worked individually. 
 
 ## License
 
