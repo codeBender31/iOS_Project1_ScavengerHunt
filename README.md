@@ -1,8 +1,8 @@
 # iOS_Project1_ScavengerHunt
 Scavenger Hunt App that allows users to submit pictures of completed tasks, and pinpoint location of where it was taken.
-# Project 1 - *Name of App Here*
+# Project 1 - *Scavenger Hunts*
 
-Submitted by: **Your Name Here**
+Submitted by: **Abel Hernandez**
 
 **Name of your app** is an app that ... [TODO] 
 
