@@ -4,7 +4,7 @@ Scavenger Hunt App that allows users to submit pictures of completed tasks, and 
 
 Submitted by: **Abel Hernandez**
 
-**Name of your app** is an app that ... [TODO] 
+**Name of your app** is an app that allows users to check off a scavenger hunt list and upload pictures that determine location of where it was taken.
 
 Time spent: **X** hours spent in total
 
@@ -12,11 +12,11 @@ Time spent: **X** hours spent in total
 
 The following **required** functionality is completed:
 
-- [ ] App displays list of hard-coded tasks
-- [ ] When a task is tapped it navigates the user to a task detail view
-- [ ] When user adds photo to complete the tasks, it marks the task as complete
-- [ ] When adding photo of task, the location is added
-- [ ] User returns to home page (list of tasks) and the status of your task is updated to complete
+- [x] App displays list of hard-coded tasks
+- [x] When a task is tapped it navigates the user to a task detail view
+- [x] When user adds photo to complete the tasks, it marks the task as complete
+- [x] When adding photo of task, the location is added
+- [x] User returns to home page (list of tasks) and the status of your task is updated to complete
  
 The following **optional** features are implemented:
 
@@ -30,11 +30,12 @@ The following **additional** features are implemented:
 
 Here is a reminder on how to embed Loom videos on GitHub. Feel free to remove this reminder once you upload your README. 
 
-[Guide]](https://www.youtube.com/watch?v=GA92eKlYio4) .
+![Alt Text](https://github.com/codeBender31/iOS_Project1_ScavengerHunt/blob/main/FirstAttempt.gif) .]
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+It was a definitely a challenge to get familiar with XCode and learn about Story Board layout.
+By interacting with the in class project I was able to see how each component worked individually. 
 
 ## License
 
