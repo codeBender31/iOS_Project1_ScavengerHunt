@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Tasks-->
+        <!--Scavenger Hunt-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="TaskListViewController" customModule="lab_task_squirrel" customModuleProvider="target" sceneMemberID="viewController">
@@ -81,12 +81,8 @@
                             <constraint firstItem="Q4w-ie-GaD" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="tqj-PY-kbK"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Tasks" id="BEp-bB-g30">
-                        <barButtonItem key="rightBarButtonItem" image="barButtonItem:mUF-lW-14o:image" catalog="system" id="mUF-lW-14o">
-                            <connections>
-                                <segue destination="Wks-lt-YIn" kind="presentation" identifier="ComposeSegue" id="HQw-jc-QaX"/>
-                            </connections>
-                        </barButtonItem>
+                    <navigationItem key="navigationItem" title="Scavenger Hunt" id="BEp-bB-g30">
+                        <barButtonItem key="rightBarButtonItem" image="barButtonItem:mUF-lW-14o:image" id="mUF-lW-14o"/>
                     </navigationItem>
                     <connections>
                         <outlet property="emptyStateLabel" destination="9An-t6-Ghh" id="XQY-EN-OAD"/>
@@ -214,81 +210,9 @@
             </objects>
             <point key="canvasLocation" x="233.84615384615384" y="13.507109004739336"/>
         </scene>
-        <!--New Task-->
-        <scene sceneID="Ioe-a1-6Ta">
-            <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="rLa-nr-FEm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-                <viewController id="fZK-XV-ZSw" customClass="TaskComposeViewController" customModule="Scavenger_Hunt" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Qrs-jQ-4tq">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="834"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="e1a-5z-s8t">
-                                <rect key="frame" x="16" y="72" width="358" height="76"/>
-                                <subviews>
-                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Title" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lYk-Ia-Eqa">
-                                        <rect key="frame" x="0.0" y="0.0" width="358" height="34"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" verticalHuggingPriority="249" verticalCompressionResistancePriority="749" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Description" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fXp-ww-cKc">
-                                        <rect key="frame" x="0.0" y="42" width="358" height="34"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
-                                </subviews>
-                            </stackView>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="lzg-S3-CuB"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="e1a-5z-s8t" firstAttribute="top" secondItem="lzg-S3-CuB" secondAttribute="top" constant="16" id="2Cf-HN-OZW"/>
-                            <constraint firstItem="lzg-S3-CuB" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="e1a-5z-s8t" secondAttribute="bottom" constant="16" id="RB5-Ah-4SH"/>
-                            <constraint firstItem="lzg-S3-CuB" firstAttribute="trailing" secondItem="e1a-5z-s8t" secondAttribute="trailing" constant="16" id="dyc-2d-MWT"/>
-                            <constraint firstItem="e1a-5z-s8t" firstAttribute="leading" secondItem="lzg-S3-CuB" secondAttribute="leading" constant="16" id="zSn-du-kw5"/>
-                        </constraints>
-                    </view>
-                    <navigationItem key="navigationItem" title="New Task" id="vWC-DD-cn2">
-                        <barButtonItem key="leftBarButtonItem" title="Cancel" id="fmg-4p-f0B">
-                            <connections>
-                                <action selector="didTapCancelButton:" destination="fZK-XV-ZSw" id="tc2-q5-u9F"/>
-                            </connections>
-                        </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" title="Done" id="oxE-u5-MuP">
-                            <connections>
-                                <action selector="didTapDoneButton:" destination="fZK-XV-ZSw" id="2zz-5T-Uoy"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
-                    <connections>
-                        <outlet property="descriptionField" destination="fXp-ww-cKc" id="m4F-Ad-baQ"/>
-                        <outlet property="titleField" destination="lYk-Ia-Eqa" id="N3B-CA-1Dv"/>
-                    </connections>
-                </viewController>
-            </objects>
-            <point key="canvasLocation" x="1752" y="716"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="Cvc-vx-Zlw">
-            <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="9sH-g6-3yG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Wks-lt-YIn" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="UMv-Tn-eJ4">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="56"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="fZK-XV-ZSw" kind="relationship" relationship="rootViewController" id="EFy-H4-QzH"/>
-                    </connections>
-                </navigationController>
-            </objects>
-            <point key="canvasLocation" x="985" y="717"/>
-        </scene>
     </scenes>
     <resources>
-        <image name="barButtonItem:mUF-lW-14o:image" catalog="system" width="128" height="113">
+        <image name="barButtonItem:mUF-lW-14o:image" width="128" height="113">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05T
 S2V5ZWRBcmNoaXZlctEICVRyb290gAGvEBELDBscIRkmKywzNjlDS0xQU1UkbnVsbNcNDg8QERITFBUW
