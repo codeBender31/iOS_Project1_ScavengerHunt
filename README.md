@@ -6,7 +6,7 @@ Submitted by: **Abel Hernandez**
 
 **Name of your app** is an app that allows users to check off a scavenger hunt list and upload pictures that determine location of where it was taken.
 
-Time spent: **X** hours spent in total
+Time spent: **6** hours spent in total
 
 ## Required Features
 
